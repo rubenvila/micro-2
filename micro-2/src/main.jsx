@@ -5,6 +5,9 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
     <App />
   </React.StrictMode>,
 )
